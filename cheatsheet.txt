@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Practice</title>
+    </head>
+    <body>
+        <h1 id="main-heading">My HTML Cheat Sheet</h1>
+        <br>
+        <br>
+        <div class="headings">
+            <h2>Heading Tags</h2>
+            <h1 id="heading-1">h1 tag - main heading</h1>
+            <h2 id="heading-2">h2 tag - section headings</h2>
+            <h3 id="heading-3">h3 tag - subsection headings</h3>
+            <h4 id="heading-4">h4 tag - brief description for any heading</h4>
+            <h5 id="heading-5">h5 tag - informative header information</h5>
+            <h6 id="heading-6">h6 tag - copyright or informative footer infomation</h6>
+        </div>
+        <br>
+        <div class="inline-and-block">
+            <h2>Inline And Block Elements</h2>
+            <p id="paragraph">p tag - contain a block of plain text. Can be very long but not too short. Not interchangable with the h1-h6 tags. </p>
+            <span id="spans">span tag - contains short pieces of text or other HTML. An inline element. Inline elements do not appear on a new line, but rather, beside, or <em>inline</em>, with other elements.</span>
+            <div id="division">
+                <p>div tag - div is short for division. A block level element. This div contains a paragrah element.</p>
+            </div>
+        </div>
+        <br>
+        <div class="em-and-strongs">
+            <h2>Italics and Bold</h2>
+            <p id="italics">em tag - <em>italizes text.</em></p>
+            <p id="bold">strong tag - <strong>makes text bold.</strong></p>
+        </div>
+        <br>
+        <div class="line-break">
+            <h2>Line Breaks</h2>
+            <p id="break">br tag - works<br>like<br>this.<br>does not need a closing tag.</p>
+        </div>
+        <br>
+        <div class="lists">
+            <h2 id="unordered-list">Lists</h2>
+            <h3>Unordered:</h3>
+            <ul>
+                <li>apples</li>
+                <li>bananas</li>
+            </ul>
+            <h3 id="ordered-list">Ordered:</h3>
+            <ol>
+                <li>Step one</li>
+                <li>Step two</li>
+            </ol>
+        </div>
+        <br>
+        <div class="images-and-videos">
+            <h2 id="images">Images</h2>
+            <p>img tag - self-closing tag. The src attribute must be set to the image's source, or the location of the image. The alt attribte provides a description of the image.</p>
+            <img src="./resources/images/penguin-waving.jpg" alt="baby penguin waving"/>
+            
+            <h2 id="videos">Videos</h2>
+            <p>video tag - requires the src attribute. Text between the opening and closing video tags will only be displayed if the browser is unable to load the video.</p>
+            <video src="" controls>Video not supported.</video>
+        </div>
+        <br>
+        <div class="standards">
+            <h2 id="standards">HTML Document Standards</h2>
+            <p>
+                HTML documents must always begin with <code>&lt;!DOCTYPE html&gt;</code>. The <code>&lt;html&gt;</code> 
+                element will contain all of your HTML code. Information about the web page, like the title, belongs 
+                within the <code>&lt;head&gt;</code> of the page. You can add a title to your web page by using the 
+                <code>&lt;title&gt;</code> element, inside of the head. A webpage's title appears in a browser's tab.
+                Anchor tags (<code>&lt;a&gt;</code>) are used to link to internal pages, external pages or content on 
+                the same page. You can create sections on a webpage and jump to them using anchor tags and adding id 
+                attributes to the elements you wish to jump to.
+            </p>
+        </div>
+    </body>
+</html>
