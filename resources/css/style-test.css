@@ -1,12 +1,89 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 0px;
   box-sizing: border-box;
+  border: 1px solid black
 }
 
 body {
   font-family: Garamond;
-  color: red;
-  background-color: blue;
+  color: darkblue;
+  background-color: paleturquoise;
 }
 
+header {
+  color: green;
+  background-color: greenyellow;
+  margin: 10px;
+}
+
+h1 {
+  color: purple;
+  background-color: pink;
+  margin: 10px;
+}
+
+nav {
+  color: red;
+  background-color: orangered;
+  margin: 10px;
+}
+
+ul {
+  color: blue;
+  background-color: turquoise;
+  margin: 10px;
+}
+
+li{
+  color: orange;
+  background-color: khaki;
+  margin: 10px;
+}
+
+a {
+  color: rebeccapurple;
+  background-color: plum;
+  margin: 10px;
+}
+
+main {
+  color: fuchsia;
+  background-color: lavenderblush;
+  margin: 10px;
+}
+
+p {
+  color: darkgreen;
+  background-color: aquamarine;
+  margin: 10px;
+}
+
+footer {
+  color: gold;
+  background-color: palegoldenrod;
+  margin: 10px;
+}
+
+div {
+  color: brown;
+  background-color: salmon;
+  margin: 10px;
+}
+
+h4 {
+  color: indigo;
+  background-color: mediumpurple;
+  margin: 10px;
+}
+
+image {
+  background-color: lightgreen;
+  margin: 10px;
+}
+
+span {
+  color: white;
+  background-color: gray;
+  margin: 10px;
+}
